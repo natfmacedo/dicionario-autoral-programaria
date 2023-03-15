@@ -14,8 +14,9 @@
     display: none;
 }
 .card__titulo:before {
-    content: "+  ";
+    content: "+";
     font-size: 20px;
     font-weight: 600;
     color: #38147B;
+    margin-right: 24px;
 }
