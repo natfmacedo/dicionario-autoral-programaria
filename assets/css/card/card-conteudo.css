@@ -8,8 +8,8 @@
     border-radius: 0 0 32px 32px;
     text-decoration: none;
 }
-.card__conteudo[open] .card__titulo:before {
-    content: "-";
+.card__conteudo[open] .card__titulo::marker{
+    content: "-  ";
 }
 /*versão para telas com largura máxima de 768px*/
 @media (max-width: 768px) {

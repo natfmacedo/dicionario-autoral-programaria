@@ -6,13 +6,7 @@
     padding: 16px;
 }
 .card__titulo::marker {
-    content: "";
-}
-.card__titulo:before {
-    content: "+";
-    font-size: 20px;
-    font-family: 'Poppins', 'Arial', sans-serif;
+    content: "+  ";
     font-weight: 600;
     color: #38147B;
-    margin-right: 24px;
 }
