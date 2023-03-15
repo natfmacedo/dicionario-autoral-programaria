@@ -1,0 +1,14 @@
+.cabecalho__descricao {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    line-height: 1.5;
+}
+/*versão para telas com largura máxima de 768px*/
+@media (max-width: 768px) {
+    .cabecalho__descricao {
+        font-size: 16px;
+    }
+}

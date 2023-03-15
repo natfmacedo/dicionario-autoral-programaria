@@ -1,0 +1,17 @@
+.card {
+    display: inline-block; /*card um ao lado do outro*/
+    margin: 8px;
+    vertical-align: top;
+    max-height: 100%;
+    box-shadow: 0px 8px 16px #9486A0;
+    -webkit-box-shadow: 0px 8px 16px #9486A0;;
+    -moz-box-shadow: 0px 8px 16px #9486A0;
+    border-radius: 32px;
+}
+/*versão para telas com largura máxima de 768px*/
+@media (max-width: 768px) {
+    .card {
+        display: block;
+        margin: 24px 16px;
+    }
+}
