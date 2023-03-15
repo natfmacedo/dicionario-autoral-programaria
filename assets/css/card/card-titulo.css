@@ -6,7 +6,16 @@
     padding: 16px;
 }
 .card__titulo::marker {
+    content: "";
+    font-weight: 600;
+    color: #38147B;
+}
+.card__titulo::-webkit-details-marker {
+    display: none;
+}
+.card__titulo:before {
     content: "+  ";
+    font-size: 20px;
     font-weight: 600;
     color: #38147B;
 }
