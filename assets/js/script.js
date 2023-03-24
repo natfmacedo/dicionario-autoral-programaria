@@ -4,7 +4,7 @@ function carregaDicionario() {
             nome: "Bertha Lutz",
             imagem: "./assets/img/bertha-lutz.png",
             descricao:
-               "Bertha Maria Júlia Lutz (1894 - 1976) foi uma ativista feminista, bióloga, educadora, displomata e política brasileira. Cientista especializada em anfíbios, foi uma das figuras mais marcantes do feminismo e da educação no Brasil no século XX. Em 1919 tornou-se secretária e pesquisadora do Museu Nacional do Rio de Janeiro e em agosto de 1965 recebeu o título de professora emérita da Universidade Federal do Rio de Janeiro (UFRJ)."
+               "Bertha Maria Júlia Lutz (1894 - 1976) foi uma ativista feminista, bióloga, educadora, diplomata e política brasileira. Cientista especializada em anfíbios, foi uma das figuras mais marcantes do feminismo e da educação no Brasil no século XX. Em 1919 tornou-se secretária e pesquisadora do Museu Nacional do Rio de Janeiro e em agosto de 1965 recebeu o título de professora emérita da Universidade Federal do Rio de Janeiro (UFRJ)."
         },
         bio02: {
             nome: "Jaqueline Goes",
