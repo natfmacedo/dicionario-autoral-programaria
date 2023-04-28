@@ -1,14 +1,3 @@
-@import url('./cabecalho/cabecalho.css');
-@import url('./cabecalho/cabecalho-titulo.css');
-@import url('./cabecalho/cabecalho-descricao.css');
-@import url('./cards.css');
-@import url('./card/card.css');
-@import url('./card/card-conteudo.css');
-@import url('./card/card-imagem.css');
-@import url('./card/card-titulo.css');
-@import url('./card/card-descricao.css');
-@import url('./rodape.css');
-
 :root {
     --cor-primaria-fundo: #DECFEA;
     --cor-secundaria-fundo: #FFF;
