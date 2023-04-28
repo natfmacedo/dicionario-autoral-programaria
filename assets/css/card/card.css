@@ -1,12 +1,12 @@
 .card {
+    border-radius: 32px;
+    box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    -webkit-box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    -moz-box-shadow:  0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     display: inline-block; /*card um ao lado do outro*/
     margin: 8px;
-    vertical-align: top;
     max-height: 100%;
-    box-shadow: 0px 8px 16px #9486A0;
-    -webkit-box-shadow: 0px 8px 16px #9486A0;;
-    -moz-box-shadow: 0px 8px 16px #9486A0;
-    border-radius: 32px;
+    vertical-align: top;
 }
 /*versão para telas com largura máxima de 768px*/
 @media (max-width: 768px) {

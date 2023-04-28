@@ -1,4 +1,4 @@
 .cabecalho {
-    background: #FFF;
+    background: var(--cor-secundaria-fundo);
     padding: 48px;
 }

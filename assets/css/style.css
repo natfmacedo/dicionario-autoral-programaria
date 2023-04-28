@@ -1,3 +1,32 @@
+@import url('./cabecalho/cabecalho.css');
+@import url('./cabecalho/cabecalho-titulo.css');
+@import url('./cabecalho/cabecalho-descricao.css');
+@import url('./cards.css');
+@import url('./card/card.css');
+@import url('./card/card-conteudo.css');
+@import url('./card/card-imagem.css');
+@import url('./card/card-titulo.css');
+@import url('./card/card-descricao.css');
+@import url('./rodape.css');
+
+:root {
+    --cor-primaria-fundo: #DECFEA;
+    --cor-secundaria-fundo: #FFF;
+    --cor-terciaria-fundo: #220B4C;
+
+    --cor-card: linear-gradient(112.51deg, #FFFFFF 32.08%, #F5F5F5 64.65%);
+
+    --cor-primaria-texto: #000;
+    --cor-secundaria-texto: #6038AC;
+    --cor-terciaria-texto: #38147B;
+
+    --fonte-principal: 'Poppins', 'Arial', sans-serif;
+}
+
 body {
-    background: #DECFEA;
+    background: var(--cor-primaria-fundo);
+    color: var(--cor-primaria-texto);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }

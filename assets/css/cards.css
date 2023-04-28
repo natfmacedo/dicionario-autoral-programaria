@@ -1,6 +1,6 @@
 #cards {
-    margin: 32px auto;
     display: block;
+    margin: 32px auto;
     max-width: 1024px;
     width: 100%;
 }

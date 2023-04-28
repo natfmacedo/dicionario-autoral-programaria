@@ -1,9 +1,7 @@
 .rodape {
-    font-family: 'Poppins', 'Arial', sans-serif;
-    font-weight: 300;
+    background: var(--cor-terciaria-fundo);
     color: #FFF;
-    font-size: 16px;
-    background: #38147B;
-    text-align: center;
+    font-weight: 300;
     padding: 24px;
+    text-align: center;
 }

@@ -1,17 +1,16 @@
 .cabecalho__titulo {
-    font-family: 'Poppins', 'Arial', sans-serif;
-    color: #000;
-    font-size: 48px;
+    color: var(--cor-primaria-texto);
+    font-size: 3rem;
     font-weight: 800;
-    text-align: center;
     margin-bottom: 16px;
+    text-align: center;
 }
 .cabecalho__titulo--destaque {
-    color: #6038AC;
+    color: var(--cor-secundaria-texto);
 }
 /*versão para telas com largura máxima de 768px*/
 @media (max-width: 768px) {
     .cabecalho__titulo {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
